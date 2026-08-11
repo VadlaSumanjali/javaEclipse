@@ -7,7 +7,7 @@ public class EmployeeSalaryCalculator {
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter Employee ID : ");
-        int id = sc.nextInt();
+        int id = sc.nextInt(); 
         sc.nextLine();
 
         System.out.print("Enter Employee Name : ");
