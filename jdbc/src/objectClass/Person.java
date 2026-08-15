@@ -1,0 +1,18 @@
+package objectClass;
+
+public class Person {
+	String n;
+	public Person(String n) {
+		this.n=n;
+	}
+//	@Override
+	public String toString() {
+        return "Person{name:" + n + "}";
+	}
+	public static void main(String[] args) {
+		Person p=new Person("suma");
+		System.out.println(p.toString());
+		System.out.println(p.hashCode());
+	}
+
+}
