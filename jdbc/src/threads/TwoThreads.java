@@ -29,8 +29,8 @@ public class TwoThreads {
 		A a=new A();
 		B b=new B();
 		a.start();
-		a.join();
 		b.start();
+		a.join();
 		b.join();
 
 	}
