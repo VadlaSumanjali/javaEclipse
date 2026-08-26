@@ -1,5 +1,6 @@
 package threads;
-class W extends Thread{
+class W1 extends Thread{
+
 	public void run(){
 		for(int i=1;i<=5;i++) {
 			System.out.println(i);
@@ -16,8 +17,8 @@ public class Example {
 
 	public static void main(String[] args) throws InterruptedException {
 
-		W w=new W();
-		w.start();
+		W1 w=new W1();
+		w.start(); 
 		Thread.sleep(3000);
 		w.interrupt();
 		w.join();
